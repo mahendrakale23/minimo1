@@ -1,0 +1,232 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	line-height:1.5;
+	font-family: 'Playfair Display', serif;
+    
+}
+.container{
+	width:1066px;
+	margin:0 auto;
+	
+	/* heroimage section start-----*/
+}
+.w-100{
+	width:100%;
+}
+.heroImage{
+	padding:70px;
+}
+a:link,a:hover,a:focus,a:active{
+	text-decoration:none;
+}
+.row,.row::after,.row::before{
+	width:100%;
+	display:table;
+	clear:both;
+}
+.text-right{
+	text-align:right;
+}
+ div[class^="col"]{
+	float:left;
+}
+.col1{
+	width:calc(100% * 1/12);
+}
+.col2{
+	width:calc(100% * 2/12);
+}
+
+.col3{
+	width:25%;
+}
+.col4{
+	width:calc(100% * 4/12);
+}
+.col5{
+	width:calc(100% * 5/12);
+}
+.col6{
+	width:calc(100% * 6/12);
+}
+.col7{
+	width:calc(100% * 7/12);
+}
+.col8{
+	width:calc(100% * 8/12);
+}
+
+.col9{
+	width:75%;
+}
+.col10{
+	width:calc(100% * 10/12);
+}
+.col11{
+	width:calc(100% * 11/12);
+}
+.col12{
+	width:calc(100% * 12/12);
+}
+.navbar li{
+	margin:0px 30px;
+	display:inline-block;
+	line-height:30px;
+}
+.navbar li a{
+	
+	padding:0px 30px;
+	display:inline-block;
+	color:#626262;
+	text-transform:uppercase;
+}
+.logo{
+	display:inline-block;
+}
+ul{
+	list-style:none;
+}
+
+.mr-0{
+	margin-right:0!important;
+	
+}
+.mb-50{
+	margin-bottom:50px;
+}
+.pr-0{
+	padding-right:0!important;
+}
+
+                                                /*gateway css start*/
+
+.gateway{
+	padding-bottom:135px;
+}
+.ml-1col{
+	margin-left:calc(100% * 1/12);
+}
+.headinggateway{
+	font-size:14px;
+	text-transform:uppercase;
+	color:#b4ad9e;
+	 font-family: 'Ubuntu', sans-serif;
+}
+.subheadinggateway{
+	font-size:30px;
+	color:#878787;
+}
+.gatewayeinfo{
+	font-size:14px;
+	color:#b4ad9e;
+	line-height:19px;
+}
+.gatewaycomment{
+	font-size:14px;
+	color:#b4ad9e;
+	font-family: 'Ubuntu', sans-serif;
+}
+		
+	
+.bm-40{
+	margin-bottom:40px;
+}
+.bm-50{
+	margin-bottom:50px;
+}
+
+.thumb{
+	display:inline-block;
+}
+
+
+                  /*thumbnail section start-----*/
+
+.thumbnail{
+	width:100%;
+	
+}
+.mb-30{
+	margin-bottom:30px;
+}
+.mb-120{
+	margin-bottom:120px;
+}
+                   /*------ sign up css start------*/
+.signUp{
+	background-color:#f0f0f0;
+	padding:75px 0;
+	
+}
+.signupLetter{
+	font-size:30px;
+	color:#333;
+	margin-bottom:90px;
+	 font-family: 'Ubuntu', sans-serif;
+}
+.text-center{
+	text-align:center;
+}
+.ml-3col{
+	margin-left:calc(100% * 3/12);
+}
+.email{
+	width:100%;
+	padding:15px 5px;
+	border:0px;
+	border-bottom:1px solid;
+	background-color:transparent;
+	outline:0;
+	
+}
+.form-group{
+	position:relative;
+	width:400px;
+	display:inline-block;
+}
+.submit{
+	position:absolute;
+	right:5px;
+	top:15px;
+	cursor:pointer;
+}
+.mb-95{
+	margin-bottom:95px;
+}
+
+.btn:active,
+.btn:hover,
+.btn:focus{
+	background-color:#626262;
+	color:#fff;
+
+}
+
+.btn{
+	padding:30px 35px;
+	border:1px solid;
+	color:#626262;
+	font-size:20px;
+	cursor:pointer;
+	background-color:#ffff;
+}
+
+/*================footer css=======================*/
+.footer{
+	background-color:#f0f0f0;
+	padding:40px 0px;
+}
+.footerLink li{
+	display:inline-block;
+	margin-right:17px;
+}
+
+.footerLink li a{
+	color:#000;
+	font-size:14px;
+}
+.footerLink li i{
+	color:#616161;
+}
